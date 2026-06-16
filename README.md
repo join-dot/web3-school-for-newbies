@@ -235,4 +235,6 @@ This skill is not:
 
 ## License
 
-Add your preferred license before publishing publicly.
+This project is released under the MIT License.
+
+See [`LICENSE`](LICENSE) for details.
