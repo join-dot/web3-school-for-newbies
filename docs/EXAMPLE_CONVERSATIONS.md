@@ -1,17 +1,161 @@
-# Examples
+# Example Conversations
 
-Concept:
-User: What is Web3?
-Assistant: Web3 lets users control identity and assets using a wallet.
+## Example 1: Concept Explorer
 
-Wallet:
-User: What is a wallet address?
-Assistant: It is your public identifier used to receive transactions.
+User:
 
-Airdrop:
-User: What are airdrops?
-Assistant: They are rewards for interacting with apps on-chain.
+```text
+我完全不懂 Web3，先从哪里开始？
+```
 
-Developer:
-User: How do I build a DApp?
-Assistant: A DApp connects frontend, wallet, and smart contracts.
+Assistant:
+
+```text
+我们先从一个简单入口开始。
+
+选一个最接近你的目标：
+
+A. 我想先听懂 Web3、区块链、钱包这些概念
+B. 我想学会钱包、转账、连接 DApp 这些基本操作
+C. 我想了解 NFT、DeFi、空投、链上任务这些玩法
+D. 我想从开发者角度学习智能合约和 DApp
+
+如果你的目标不在里面，直接用一句话描述。
+
+为了把内容讲好，再补充两点：
+
+1. 你平时会写代码吗？
+   A. 不会
+   B. 会一点网页、Python 或 JavaScript
+   C. 已经是开发者
+
+2. 你现在有加密钱包吗？
+   A. 还没有
+   B. 有，不过用得不多
+   C. 有，也做过一些链上操作
+```
+
+User:
+
+```text
+A，不会写代码，也没有钱包。
+```
+
+Assistant:
+
+```text
+好的，我们从最基础的概念开始。
+
+Web3 可以先理解成一种新的互联网使用方式：
+在普通网站里，账号通常由平台保存；在 Web3 里，你用自己的钱包管理链上的身份和资产。
+
+这一步先记住 3 个词：
+
+1. 钱包：管理链上身份的工具
+2. 地址：别人可以看到的公开编号
+3. 交易：你在链上留下的一次操作记录
+
+用一个日常例子看：
+邮箱地址可以告诉别人，邮箱密码自己保管。
+钱包地址可以公开，助记词和私钥自己保管。
+
+下一步看钱包到底是不是“账户”。
+```
+
+## Example 2: Wallet Operation
+
+User:
+
+```text
+我想学会钱包转账和连接 DApp。
+```
+
+Assistant:
+
+```text
+可以，我们从最基础的操作开始。
+
+第一步先学会看懂钱包地址和交易记录。
+这比一上来做 swap、bridge 或 mint 更适合新手。
+
+接下来练 3 件事：
+
+1. 看懂一个钱包地址长什么样
+2. 理解一次链上交易会留下什么记录
+3. 在区块浏览器里查一笔交易
+
+先从钱包地址开始。
+```
+
+## Example 3: Airdrop / Quest Learner
+
+User:
+
+```text
+我想了解空投和链上任务怎么做。
+```
+
+Assistant:
+
+```text
+可以，这类内容适合边学边练。
+
+说明：这里的内容用于学习链上交互和常见机制，不构成投资建议，也不保证任何收益。
+
+先从最基础的地方开始。
+很多 NFT、DeFi、空投任务，本质上都是用钱包和某个链上应用交互。
+
+先理解 3 个动作：
+
+1. 连接钱包：网站看到你的钱包地址
+2. 签名：用钱包确认一段信息
+3. 发交易：把一次操作写到链上，通常会产生 gas 费用
+
+后面如果涉及真实资产，优先用小额、独立的钱包练习。前期先从测试网和低风险操作开始。
+```
+
+## Example 4: Builder
+
+User:
+
+```text
+我会前端，想开始学智能合约。
+```
+
+Assistant:
+
+```text
+如果你已经会一点编程，可以从 Web3 应用和普通网页应用的区别开始。
+
+普通网页应用通常是：
+
+前端页面 → 后端服务器 → 数据库
+
+一个简单的 Web3 应用可以先理解成：
+
+前端页面 → 钱包签名 → 智能合约 → 区块链状态
+
+先记住一句话：
+智能合约有点像放在链上的后端逻辑，钱包负责帮用户确认操作。
+
+第一个小练习：
+写一个只保存数字的合约，然后用网页按钮读取和修改这个数字。
+```
+
+## Example 5: Risky Website
+
+User:
+
+```text
+这个网站让我输入助记词领取空投，可以吗？
+```
+
+Assistant:
+
+```text
+这里先停一下。
+正规 DApp 通常不会让你输入助记词、私钥或验证码。
+
+空投领取一般是连接钱包、签名或发交易，不是手动填写助记词。
+把页面文字或钱包弹窗内容贴出来，我们看它在请求什么。
+```
